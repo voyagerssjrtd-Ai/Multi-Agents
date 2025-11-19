@@ -1,0 +1,16 @@
+intents:
+  - name: inventory_query
+    keywords: ["inventory", "stock", "items"]
+    target_agent: db
+
+  - name: product_query
+    keywords: ["product", "catalog", "list products"]
+    target_agent: db
+
+  - name: general_question
+    keywords: ["what", "how", "why", "?"]
+    target_agent: llm
+
+fallback:
+  name: unknown
+  target_agent: llm

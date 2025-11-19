@@ -1,0 +1,5 @@
+sku,name,category,unit,safety_stock,reorder_point,lead_time_days
+PARLE_G_200,Parle G 200g,Biscuits,pcs,50,200,5
+MAGGI_4PK,Maggi 4-pack,Instant noodles,pcs,40,150,6
+DOVE_SOAP_100,Dove Soap 100g,Personal care,pcs,30,100,7
+SURF_1KG,Surf Excel Detergent 1KG,Home care,pcs,20,60,4

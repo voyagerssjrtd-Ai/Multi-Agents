@@ -1,0 +1,3 @@
+name,email,phone,lead_time_days,rating
+Supplier A,supplierA@test.com,9876543210,5,4.7
+Supplier B,supplierB@test.com,9876543211,6,4.6
