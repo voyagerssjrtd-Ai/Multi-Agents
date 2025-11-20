@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+langgraph
+pydantic
+python-dotenv
+Jinja2
+duckdb
+litellm

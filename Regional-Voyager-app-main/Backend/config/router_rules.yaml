@@ -1,0 +1,38 @@
+intents:
+  - name: inventory_query
+    keywords:
+      ["inventory","inventory status","stock","in stock","stock level"]
+    target_agent: db
+
+  - name: product_query
+    keywords:
+      ["product","products","catalog","item list","list products"]
+    target_agent: db
+
+  - name: quantity_query
+    keywords:
+      ["qty","quantity","how many","count items","low stock"]
+    target_agent: db
+
+  - name: product_detail_query
+    keywords:
+      ["details of","info on","sku","product id","find product"]
+    target_agent: db
+
+  - name: supplier_query
+    keywords:
+      ["supplier","vendor","lead time","supply"]
+    target_agent: db
+
+  - name: analytics_query
+    keywords:
+      ["sales","forecast","trend","top selling","demand"]
+    target_agent: db
+
+  - name: general_question
+    keywords: ["hi", "hello", "hey", "how", "what is", "why", "explain", "?"]
+    target_agent: llm
+
+fallback:
+  name: unknown
+  target_agent: llm

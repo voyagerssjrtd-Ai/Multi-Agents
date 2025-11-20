@@ -1,0 +1,8 @@
+app_name: "inventory-ai"
+env: "local"
+database:
+  path: "./data/inventory.db"
+model:
+  default: "azure/genailab-maas-gpt-4o-mini"
+logging:
+  level: "INFO"
